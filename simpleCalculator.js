@@ -4,7 +4,7 @@
 //3. Use Console. log to call the function with dynamic parameters 
 
 //Declare function for simpleCalculator
-function simpleCalculator (num1, num2, operation) {
+function Calculator (num1, num2, operation) {
 
     //write the application logic. 
 let result ; 
@@ -20,7 +20,7 @@ else if (operation === "divide")
     {if (num2 !== 0 ) {
         result = num1 / num2; 
     } else  {
-        return "Error: Division by Zero ";
+        log "Error: Division by Zero ";
     }
 }
 
@@ -30,6 +30,10 @@ else {
 
 return result; 
 };
+
+console.log(simpleCalculator (20, 5, "divide"));
+
+console.log(simpleCalculator (20, 5, "divide"));
 
 console.log(simpleCalculator (20, 5, "divide"));
 
